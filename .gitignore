@@ -1,0 +1,74 @@
+# .gitignore for MATLAB & Simulink Projects
+
+# ===================================================================
+#  Simulink Cache & Generated Files
+#  (These are platform-specific and auto-generated)
+# ===================================================================
+slprj/
+_sfsl_chart_config/
+*.sfx
+*.slx.part
+*.mdl.tmp
+*.slx.tmp
+
+# ===================================================================
+#  MATLAB Coder / Simulink Coder / Embedded Coder
+#  (Generated code, not source code)
+# ===================================================================
+codegen/
+rtw/
+*_ert_rtw/
+*_grt_rtw/
+*_slrt_rtw/
+
+# ===================================================================
+#  MATLAB Autosaves & Backup Files
+# ===================================================================
+*.asv
+*.autosave
+*.bak
+*~
+
+# ===================================================================
+#  Compiled Binaries (MEX, DLLs, etc.)
+#  (These are built from source and are platform-specific)
+# ===================================================================
+*.mex*
+*.o
+*.so
+*.dll
+*.dylib
+
+# ===================================================================
+#  MATLAB Test & Coverage Reports
+#  (These are artifacts, not source)
+# ===================================================================
+TestArtifacts/
+cov_work/
+slcov_output/
+*.prof
+*.tap
+junit*.xml
+coverage*.xml
+
+# ===================================================================
+#  Packaged Apps & Toolboxes
+#  (These are build artifacts. Store the source, not the package)
+# ===================================================================
+*.mlappinstall
+*.mlpkginstall
+*.mltbx
+
+# ===================================================================
+#  MATLAB Environment & Log Files
+# ===================================================================
+*.log
+crash.mat
+cwd.mat
+matlab.prf
+
+# ===================================================================
+#  Common OS-generated files
+# ===================================================================
+.DS_Store
+Thumbs.db

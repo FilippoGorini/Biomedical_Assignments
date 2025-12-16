@@ -1,0 +1,5 @@
+ho modificato il file .wrl per il reaching perchè le sfere erano fatte male, troppo grandi
+quindi non si vedeva niente.
+
+il file wrl originale comunque se dovesse servire è nella cartella con il nome:
+not_working.wrl

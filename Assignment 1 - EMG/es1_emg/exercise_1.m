@@ -77,9 +77,9 @@ grid on;
 
 % Plot Rectified EMG signal overlaid with the envelope
 ax2 = nexttile;
-plot(t_raw, emg_rectified, 'Color', [0.75 0.75 0.75]); % Rectified in light gray
+plot(t_raw, emg_rectified, 'Color', [0.75 0.75 0.75]); 
 hold on;
-plot(t_raw, emg_envelope, 'r', 'LineWidth', 2); % Envelope in thick red
+plot(t_raw, emg_envelope, 'r', 'LineWidth', 2);
 hold off;
 title('2. Rectified Signal & Linear Envelope (Lowpass 4 Hz)');
 xlabel('Time (s)');
